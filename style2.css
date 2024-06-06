@@ -1,0 +1,24 @@
+
+body {
+  width: 100vw;
+  height: auto;
+  text-align: center;
+  float: center;
+  justify-content: center;
+  margin: auto;
+  
+}
+
+
+#resume {
+  width: 100vw;
+  height:auto
+}
+
+.btn {
+  bottom: 4vh;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+

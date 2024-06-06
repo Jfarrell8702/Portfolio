@@ -1,0 +1,236 @@
+@font-face {
+    font-family: 'sf_port_mckenzie_extendedbold';
+    src: url('sf_port_mckenzie_extended_bold-webfont.woff2')       
+    format('woff2'),
+    url('sf_port_mckenzie_extended_bold-webfont.woff') 
+    format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+body {
+  color: white;
+  text-shadow: 1px 2px 1px black;
+  margin: 0;
+  float: center;
+  background-color: darkgreen;
+  background: -webkit-linear-gradient(90deg, hsla(0, 0%, 0%, 1) 1%, hsla(128, 100%, 50%, 1) 100%);
+  background-attachment: fixed;
+}
+
+a:hover {
+  color: white;
+}
+
+a:active {
+  color: lightgray;
+}
+
+nav i:hover, i:active {
+  color: black;
+}
+
+h1 {
+  text-align: center;
+  padding: 50px;
+  font-size: 75px;
+  font-family: 'sf_port_mckenzie_extendedbold', 'cursive';
+}
+
+#hero-section {
+  background-image: linear-gradient(rgba(0, 5, 0, .7), rgba(0, 0, 0, 
+  .5)),url(https://i.gifer.com/NvL.gif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 110vh;
+  background-attachment: fixed;
+    
+}
+
+#name {
+  color: white;
+  font-family: 'PT Mono', monospace;
+  text-align: center;
+  margin: auto;
+  
+}
+
+#motto {
+  color: white;
+  font-family: 'PT Mono', monospace;
+  margin-bottom: 2%;
+  text-align: center;
+  
+}
+
+#avatar {
+  border-radius: 50%;
+  width: 27%;
+  margin: 0% auto -2%;
+  background: conic-gradient(
+        #D30000 ,
+        #0000 30deg 120deg,
+        #00FFA2 150deg 180deg,
+        #0000 210deg 300deg,
+        #D30000 325deg
+    )
+}
+
+nav {
+  color: white;
+}
+
+
+.bi-house {
+  color: white;
+}
+
+.bi-filetype-html {
+  color: red;
+}
+
+#mission-section {
+  font-size: 30px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 105vh;
+  background-attachment: fixed;
+  display: flex;
+  margin-top: 1%;
+  
+}
+
+#mission-section h1{
+  margin: 30px;
+  padding: 15px;
+}
+
+#mission-section img {
+  border-radius: 15%;
+  object-fit: cover;
+  height: 50vh;
+}
+
+#projects-section {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  height: 80vh;
+  font-size: 30px;
+  background-attachment: fixed;
+  margin-top: -5%;
+  margin-bottom: 7.5%;
+  text-align: center;
+  
+}
+
+
+
+#text {
+  font-size: 30px;
+  height: 12em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+.quantum {
+  display:block;
+  border: 2px solid white;
+  width:100%;
+  height: auto;
+  overflow: hidden;
+ 
+}
+}
+
+.text {
+  margin-right: 0;
+}
+
+#skills-section {
+  text-align: center;
+  height: 80vh;
+  background-attachment: fixed;
+  object-fit: contain;
+  margin-top: 0;
+}
+
+.logo {
+  float: center;
+  width:  100px;
+  height: 120px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+.icon {
+  float: center;
+  width:  120px;
+  height: 200px;
+  object-fit: contain;
+  margin: 0 auto;
+}
+
+
+
+#logo1, #logo3 {
+  object-fit: cover;
+}
+
+#inspiration-section {
+  margin-top: -5%;
+  text-align: center;
+  height: 50vh;
+  background-attachment: fixed;
+
+}
+
+#inspiration-section h5{
+  color: white;
+  text-shadow: 2px 3px 3px black;
+  font-size: 25px;
+  max-width:100%;
+  margin-top: 1%;
+}
+
+img.ch {
+  max-height: 30vh;
+  width: 30%;
+  text-align: center;
+  object-fit: contain;
+}
+
+
+#contact-section {
+  padding: 20px;
+  height: 90vh;
+  margin: 10%;
+  margin-top: 0;
+  
+}
+
+.link {
+  float: center;
+}
+
+#foot {
+  height: 5vh;
+  margin-top: -20%;
+}
+
+#foot h5 {
+  text-align: center;
+  padding: 2%;
+}
+
+
